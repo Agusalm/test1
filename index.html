@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="style.css">
     <script>
         function funcion_apellido() {
-            var apellido = document.getElementById("apellido1").value;
+            var edad = document.getElementById("age").value;
             var nom = document.getElementById("nombre").value;
-            alert('Bienvenido ' + nom + ' ' + apellido)
+            alert('Bienvenido ' + nom + 'es cierto que tienes ' + edad + ' años?')
         }
     </script>
 </head>
 
 <body>
     <h1>Practica bloque 3</h1>
-    Introduce nombre: <input type="text" id="nombre"> Introduce apellido1: <input type="text" id="apellido1" onchange="funcion_apellido()">
+    Introduce nombre: <input type="text" id="nombre"> Introduce edad: <input type="text" id="age" onchange="funcion_edad()">
 </body>
 
 </html>
